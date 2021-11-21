@@ -1,0 +1,35 @@
+header {
+    height: 80px;
+    background: grey;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    * {
+    box-sizing: border-box;
+    }
+    aside {
+        width: 20%;
+        background: green;
+    }
+
+}
+
+article {
+    flex: 1;
+    color: rgb(44, 44, 44);
+    font-family:sans-serif;
+}
+
+section {
+    li {
+        list-style: none;
+    }
+}
+
+footer {
+    height: 160px;
+    background: black;
+    color: white;
+}

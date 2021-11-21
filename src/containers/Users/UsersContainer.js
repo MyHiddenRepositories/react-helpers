@@ -38,6 +38,7 @@ export const UsersContainer = () => {
         },
     ], 'active', OrderDirection.desc);
 
+
     return <div className='users-container'>
         <table>
             <thead>
