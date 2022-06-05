@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'ecom-icon';
+    src:  url('fonts/ecom-icon.eot?fh16ud');
+    src:  url('fonts/ecom-icon.eot?fh16ud#iefix') format('embedded-opentype'),
+      url('fonts/ecom-icon.ttf?fh16ud') format('truetype'),
+      url('fonts/ecom-icon.woff?fh16ud') format('woff'),
+      url('fonts/ecom-icon.svg?fh16ud#ecom-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  .ecom-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'ecom-icon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ecom-icon-more-horiz:before {
+    content: "\e901";
+  }
+  .ecom-icon-local-offer:before {
+    content: "\e900";
+  }
